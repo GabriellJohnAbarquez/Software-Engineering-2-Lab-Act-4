@@ -22,6 +22,10 @@ $students = $student->getStudents();
     <title>Student CRUD</title>
 </head>
 <body>
+    <nav style="margin-bottom:15px;">
+        <a href="index.php">Students</a> | 
+        <a href="attendance_index.php">Attendance</a>
+    </nav>
     <h2>Student Enrollment CRUD</h2>
 
     <!-- Add Form -->
