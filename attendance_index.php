@@ -22,6 +22,10 @@ $records = $attendance->getAttendance();
     <title>Attendance CRUD</title>
 </head>
 <body>
+    <nav style="margin-bottom:15px;">
+        <a href="index.php">Students</a> | 
+        <a href="attendance_index.php">Attendance</a>
+    </nav>
     <h2>Attendance Records CRUD</h2>
 
     <!-- Add Attendance -->
